@@ -1,0 +1,24 @@
+# Credenziali e configurazione locale
+secrets.yaml
+secrets.yml
+.env
+.env.*
+!.env.example
+
+# ESPHome / toolchain
+.esphome/
+.pio/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Backup e file temporanei KiCad; i sorgenti e le librerie restano versionati
+*-backups/
+*.lck
+*.kicad_prl
+~*.lck
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
